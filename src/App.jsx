@@ -4,7 +4,7 @@ import AuthLayout from './components/layout/auth-layout';
 import Register from './pages/auth/register';
 import Login from './pages/auth/login';
 import HomeLayout from './components/layout/home-layout';
-import Home from './pages/home/Home';
+import Home from './pages/home/home';
 
 const App = () => {
       const isAuthenticated = localStorage.getItem('isAuthenticated') === 'true';
